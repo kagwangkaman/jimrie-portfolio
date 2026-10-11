@@ -52,7 +52,7 @@ export default function Sidebar({ activeSection }) {
         </nav>
       </div>
 
-      <p className="font-mono text-[10px] text-zinc-400">2026 · react + tailwind</p>
+      <p className="font-mono text-[10px] text-zinc-400">2026</p>
     </aside>
   );
 }

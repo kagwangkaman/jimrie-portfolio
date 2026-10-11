@@ -57,7 +57,7 @@ export default function Contact() {
       <div className="grid gap-6 md:grid-cols-2">
         <div className="rounded-lg border border-gray-200 p-6 dark:border-neutral-800">
           <p className="text-[15px] leading-relaxed text-gray-500 dark:text-gray-400">
-            Questions about my work or a role you want to discuss. Send a message.
+            Have a question, idea, or just want to say hi? Feel free to reach out.
           </p>
           <div className="mt-4 space-y-2 font-mono text-[13px]">
             <a href={`mailto:${profile.email}`} className="block text-black underline-offset-4 hover:underline dark:text-white">

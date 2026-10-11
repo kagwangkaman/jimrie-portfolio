@@ -18,9 +18,6 @@ export default function Home({ onBrowseProjects }) {
   return (
     <section id="home" className="fade-up scroll-mt-20">
       <div className="label-micro mb-6">{profile.tagline}</div>
-      <p className="rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-3 font-mono text-[12px] text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300">
-        {profile.welcome}
-      </p>
 
       <div className="mt-6 flex flex-col gap-6 sm:flex-row sm:items-start sm:gap-8">
         <div className="flex shrink-0 flex-col items-start gap-3">

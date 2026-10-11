@@ -33,12 +33,12 @@ export default function About() {
         <div className="rounded-lg border border-gray-200 p-6 dark:border-neutral-800">
           <h3 className="font-mono text-[12px] uppercase tracking-wider text-gray-400">skills</h3>
           <ul className="mt-4 flex flex-wrap gap-2">
-            {about.skills.map((s) => (
+            {about.skills.map((skill) => (
               <li
-                key={s.name}
+                key={skill}
                 className="rounded-full border border-gray-200 px-3 py-1.5 font-mono text-[12px] text-gray-600 dark:border-neutral-700 dark:text-gray-300"
               >
-                {s.name}
+                {skill}
               </li>
             ))}
           </ul>
